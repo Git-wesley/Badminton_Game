@@ -34,18 +34,19 @@ class AddViewController: UIViewController, UITextViewDelegate {
     @IBAction func onclickSave(sender: AnyObject) {
         
         let note = Note()
-        note.date = NSDate()
+        note.date = NSDate() as Date
         note.content = self.txtView.text
         let reslist = bl.createNote(note)
         
-        NSNotificationCenter.defaultCenter().postNotificationName("reloadViewNotification", object: reslist, userInfo: nil)
+        //NotificationCenter.defaultCenter.postNotificationName("reloadViewNotification", object: reslist)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "reloadViewNotification"), object: reslist,userInfo: nil)
         self.txtView.resignFirstResponder()
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
         
     }
     
     @IBAction func onclickCancel(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {

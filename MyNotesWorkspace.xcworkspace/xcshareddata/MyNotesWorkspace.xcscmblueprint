@@ -1,15 +1,18 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B4F71CFEE8E0448F870A01500E6C8C838C8F1DCD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : 9223372036854775807,
     "F1628B57CC385D1BD88C01197BDFFB6CF6C933A9" : 9223372036854775807,
-    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : 9223372036854775807
+    "B4F71CFEE8E0448F870A01500E6C8C838C8F1DCD" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "884258A4-D90F-473E-8CDE-4E0F3142BDE5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : "Badminton_Game\/SQLite.swift\/",
     "F1628B57CC385D1BD88C01197BDFFB6CF6C933A9" : "..\/..\/Downloads\/iOSBook14",
-    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : "Badminton_Game\/SQLite.swift\/"
+    "B4F71CFEE8E0448F870A01500E6C8C838C8F1DCD" : "Badminton_Game\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MyNotesWorkspace",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephencelis\/SQLite.swift.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Git-wesley\/Badminton_Game.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B4F71CFEE8E0448F870A01500E6C8C838C8F1DCD"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tonyguan\/iOSBook14.git",
